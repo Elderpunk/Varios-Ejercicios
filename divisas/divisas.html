@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="divisas.css">
+    <title>Divisas</title>
+</head>
+<body>
+
+    <main>
+
+<h1>CONVERSOR DE DIVISAS</h1> 
+
+<div class="contenidos">
+
+    <label for="">Introduzca la cantidad que quiere cambiar:</label>
+    <input type="number" id="cantidad" placeholder="Cantidad" required>
+
+    <button onclick="convertirMoneda('dolar')"> US dolar</button>
+    <button onclick="convertirMoneda('dirhan')"> Dirhan</button>
+
+    
+</div>
+
+<div class="resultado" id="resultadoDelCambio">
+
+</div>
+
+<script src="divisas.js"></script>
+
+</main>
+</body>
+</html>

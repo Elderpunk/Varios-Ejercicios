@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+}
+.calculadora{
+    display: grid;
+    justify-content:center ;
+    align-content: center;
+    height:100vh;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto) repeat(5,100px);
+}
+button{
+    font-size:3rem;
+    border:1px solid white;
+    background-color:#00008b;
+    color:white;
+    cursor:pointer;
+    border-radius:10%
+}
+button:hover{
+    background-color:white;
+    color:#00008b;
+
+}
+.pantallacalculadora{
+    grid-column:1/-1;
+    background-color:rgb(5, 5, 66);
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    justify-content:space-around;
+    padding: 10px;
+    
+}
+.display{
+color:black ;
+font-size: 1.5rem;
+text-align: left;}

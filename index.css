@@ -1,0 +1,9 @@
+
+
+nav a{
+    display:flex;
+    flex-direction:column;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
